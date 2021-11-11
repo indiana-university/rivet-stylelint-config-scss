@@ -1,0 +1,29 @@
+{
+  "name": "rivet-stylelint-config-scss",
+  "version": "1.0.0",
+  "description": "An SCSS stylelint shareable configuration for Rivet-related projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiana-university/rivet-stylelint-config-scss.git"
+  },
+  "author": "Rachel O'Connor",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/indiana-university/rivet-stylelint-config-scss/issues"
+  },
+  "homepage": "https://github.com/indiana-university/rivet-stylelint-config-scss#readme",
+  "peerDependencies": {
+    "stylelint": "^14.0.1"
+  },
+  "devDependencies": {
+    "stylelint": "^14.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-standard-scss": "^2.0.1",
+    "stylelint-selector-bem-pattern": "^2.1.1"
+  }
+}
