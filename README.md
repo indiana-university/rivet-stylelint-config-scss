@@ -1,5 +1,5 @@
 # stylelint-config-rivet-scss
-This package extends `stylelint-config-standard-scss` (see [stylelint documentation](https://stylelint.io/#extend-a-shared-configuration)) with rules specific to creating projects within the Rivet extended universe. It is a Rivet-specific shareable `SCSS` config for `Stylelint`.
+This package extends `stylelint-config-standard-scss` (see [stylelint documentation](https://stylelint.io/user-guide/configure#extends)) with rules specific to creating projects within the Rivet extended universe. It is a Rivet-specific shareable `SCSS` config for `Stylelint`.
 
 Because this configuration is `SCSS` specific, it is assumed that you will be using [Dart Sass](https://sass-lang.com/dart-sass).
 
@@ -84,7 +84,7 @@ We recommend writing separate functions for linting `build` versus `watch` tasks
 ### webpack
 Finally, there are a number of Rivet-based applications which rely on `webpack` to bundle their code.
 
-First, you will need to make sure that the `stylelint` plugin for `webpack` is installed. There is a different `stylelint-loader` available; however, it does not allow for `@imports`, and will therefore only lint the main file for each `require/entry` (see [plugin documentation](https://github.com/webpack-contrib/stylelint-webpack-plugin#differences-with-stylelint-loader)).
+First, you will need to make sure that the `stylelint` plugin for `webpack` is installed.
 
 ```
 npm install --save-dev stylelint-webpack-plugin
@@ -109,4 +109,4 @@ It's important to note that when using transpilers (such as `babel`) and linting
 
 ### Additional integrations
 
-Stylelint has [integrations available for most of the major, modern code editors](https://stylelint.io/user-guide/complementary-tools/#editor-plugins).
+Stylelint has [integrations available for most of the major, modern code editors](https://stylelint.io/user-guide/integrations/editor).
