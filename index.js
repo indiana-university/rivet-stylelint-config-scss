@@ -15,6 +15,7 @@ module.exports = {
     'alpha-value-notation': 'number',
     'scss/at-rule-no-unknown': null,
     'at-rule-no-unknown': null,
+    'color-function-notation': null,
     'color-hex-length': 'long',
     'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-semicolon-newline-after': 'always',
