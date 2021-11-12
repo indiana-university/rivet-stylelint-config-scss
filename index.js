@@ -16,6 +16,7 @@ module.exports = {
     'scss/at-rule-no-unknown': null,
     'at-rule-no-unknown': null,
     'color-hex-length': 'long',
+    'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-semicolon-newline-after': 'always',
     'scss/dollar-variable-empty-line-before': null,
     'number-leading-zero': 'never',
