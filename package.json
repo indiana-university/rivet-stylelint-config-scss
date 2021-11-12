@@ -1,5 +1,5 @@
 {
-  "name": "rivet-stylelint-config-scss",
+  "name": "stylelint-config-rivet-scss",
   "version": "1.0.0",
   "description": "An SCSS stylelint shareable configuration for Rivet-related projects",
   "main": "index.js",
